@@ -1,4 +1,4 @@
-# Semantic Veresioning
+# Semantic Versioning
 
   - Introducción:
     - frase: hablemos de versionado de dependencias.
