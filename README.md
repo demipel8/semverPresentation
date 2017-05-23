@@ -47,7 +47,48 @@
 	- 6.
 		- La falta de control de estado actual, y la evolución de estas dependencias nos puede llevar desde dolores de cabeza e incertidumbre en el workflow habitual hasta fallos en producción como el citado anteriormente
 	- 7.
-		- Necesitamos una forma de gestión que nos permita gestionar de forma solidad, algo que evite esa actualización imprevista, VERSION PROMISCUITY, pero que no nos ate tanto que no podamos beneficiarnos de los adelantos que aportan otros miembros de la comunidad, VERSION LOCKING.
+		- Necesitamos una forma de gestión que nos permita manejar de forma solida, algo que evite esa actualización imprevista, VERSION PROMISCUITY, pero que no nos ate tanto que no podamos beneficiarnos de los adelantos que aportan otros miembros de la comunidad, VERSION LOCKING.
 	- 8.
-		- SEMVER
+		- SEMVER, al rescate.
+		- El versionado semantico es un simple set de reglas y requerimientos que dictan como establecer un numero de version y su incremento.
+	- 9.
+	  - Lo primero que has de hacer es declarar una API pública. Tu API pública, ya sea en forma de documentación o implicita en el código,
+	  forma el contrato que tienes con los usuarios de tu proyecto. Expondra qué y como se pueden hacer las cosas con el.
+	- 10.
+	  - A partir de ese momento, cada cambio en el código podra afectar a la API pública por lo se mostrara con un cambio en la versión.
+
+	  - De manera que puedas transmitir a los usuarios de tu software como actuar ante esa modificación.
+	- 11.
+		- ¿Como se gestiona? Tres números, con tres siginificados asociados: MAJOR.MINOR.PATCH
+	- 12.
+		- Reglas para cambiar de version de menor a mayor:
+      - PATCH: Correciones de errores que son compatibles con la API actual
+      - MINOR: Adiciones a la API que no rompen la retrocompatibilidad
+      - MAJOR: Cambios incompatibles con la API actual
+    - Una vez una version es lanzada, NO SE PUEDE modificar.
+  - 13.
+  	- Idea subyacente: Los numeros de version y cambios muestran la evolución del código que hay detras.
+  	- Ofreciendo a los usuarios una forma consistente de enfrentar la evolucion de nuestras dependencias.
+  - 14.
+  	- Algunas dudas mas comunes:
+  	- Que pasa si el proyecto esta en una versión temprana y la API pública no para de cambiar? tengo que llegar a la version 40.32.168 antes de tener una version estable.
+  - 15.
+  	- 0.y.z: Cualquier cosa puede cambiar. La API pública no se considera estable.
+  - 16.
+  	- Y que pasa si quiero hacer una pre-release? tengo que subir numero de version ordinario.
+  	- 1.0.0: El contrato de la API publica se formaliza
+  	- versiones de pre-lanzamiento: El numero de la version seguido de un guion y el nombre del patch. Ej. 2.13.4-alpha
+  - 17.
+  	- La mayoria de equipos ya hace algo parecido, pero no es suficiente. Sin una especificacion formal y un compromiso por parte del sector con dicha especificacion, los numeros de version no valen de nada.
+  - 18.
+    - Por responsabilidad y por respeto al resto de compañeros del sector se responsable con la gestion de versiones del software que crees para ser usado por otros.
+  - 19.
+    - Por simplicidad, complicidad y respeto al resto de la comunidad, usemos SEMVER como especificación.
+    - Con algo tan facil como como Major Minor y Patch, podremos evitar dolores de cabeza a muchos compañeros y a nosotros mismos.
+  - 20.
+    - Gracias y a versionar.
+
+
+## Bibliography
+[Semver.org](http://semver.org/)
 
