@@ -72,9 +72,9 @@
    - Que pasa si el proyecto esta en una versión temprana y la API pública no para de cambiar? tengo que llegar a la version 40.32.168 antes de tener una version estable.
 15. SLIDE
    - 0.y.z: Cualquier cosa puede cambiar. La API pública no se considera estable.
+   - 1.0.0: El contrato de la API publica se formaliza
 16. SLIDE
    - Y que pasa si quiero hacer una pre-release? tengo que subir numero de version ordinario.
-   - 1.0.0: El contrato de la API publica se formaliza
    - versiones de pre-lanzamiento: El numero de la version seguido de un guion y el nombre del patch. Ej. 2.13.4-alpha
 17. SLIDE
    - La mayoria de equipos ya hace algo parecido, pero no es suficiente. Sin una especificacion formal y un compromiso por parte del sector con dicha especificacion, los numeros de version no valen de nada.
