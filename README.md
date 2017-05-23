@@ -43,5 +43,11 @@
 		- Resulta que aunque nosotros teniamos las versiones de nuestras dependencias fijadas, nuestras dependencias eran mas laxas con sus dependencias.
 		- Consiguiendo que una mala actualizacion de un tercero, tirara por tierra meses de trabajo nuestro.
 	- 5.
-		- Vivimos en un momento 
+		- El software que desarrollamos esta dominado por dependencias externas. Desde librerias de terceros que usamos para facilitarnos la vida, servicios externos que consumimos, incluido el tooling de desarrollo, testing y despliegue.
+	- 6.
+		- La falta de control de estado actual, y la evolución de estas dependencias nos puede llevar desde dolores de cabeza e incertidumbre en el workflow habitual hasta fallos en producción como el citado anteriormente
+	- 7.
+		- Necesitamos una forma de gestión que nos permita gestionar de forma solidad, algo que evite esa actualización imprevista, VERSION PROMISCUITY, pero que no nos ate tanto que no podamos beneficiarnos de los adelantos que aportan otros miembros de la comunidad, VERSION LOCKING.
+	- 8.
+		- SEMVER
 
