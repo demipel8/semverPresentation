@@ -29,6 +29,20 @@
     - Por responsabilidad y por respeto al resto decompañeros del sector se responsable con la gestion de versiones del software que crees para ser usado por otros.
     - Así podremos evitar dolores de cabeza a muchos compañeros y a nosotros mismos.
 
+## Ignite v2
+
+ 1. ¿Sabeis que es el efecto demo? Es aquel que provoca que en el momento de presentar una aplicación informática se alineen todos los astros del universo y esa aplicación que has probado un trillón de veces, explote por todos sitios delante de la gente que probablemente te tuviese intenciones de pagar por ella.
+ 2.Hace unos meses tuve la desgracia de sufrir este efecto en mis carnes. Mis jefes estaban en Madrid presentandole a un cliente nuestra proxima aplicacion. Yo estaba en la oficina tranquilamente, todo iba sobre ruedas...
+ 3. De repente suena el telefono. Mi compañero, desde Madrid. Algo pasaba, La aplicación no se podia ni levantar. Habia un fallo en las dependencias.
+ 4. Para aquellos que no sois programadores, Una dependencia es algo de lo que depende nuestro programa. Como cuando entras en una web y te salta un mensaje: "Esta web necesita flash player para funcionar". Flash player es una dependencia de esa web.
+ 5. Estas dependencia van cambiando de version, seguro que os alguna vez en windows is os ha saltado una ventanita diciendo: JAVA necesita actualizarse. Java es una depencia de muchos de los programas de escritorio.
+ 5. En nuestro caso teniamos un set de dependencias con las versiones fijadas, pero estas a su vez tenian sus dependencias, con una politica de actualización mas laxa.
+ 6. Resulta que la dependencia de una de nuestras dependencias marco como trivial una actualización que no era compatible con sus versiones anteriores, lo cual desato un fallo en cadena. Nuestra dependencia fallo a causa de esa actualizacion, que a su vez hizo que nosotros fallaramos.
+ 7. Un mal control de versiones puede tener efectos muy negativos en los usuarios de ese software. Pero ¿Que hacemos? El software sigue evolucionando y tienen que haber una manera de todos nos podamos beneficiar de los adelantos que se hacen en los proyectos que usamos.
+
+
+
+
 ## Ignite
 
 1. SLIDE
